@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,body{
 	background : rgb(15,11,0) ;
 	color : white ;
@@ -145,4 +146,160 @@ font-size: 24px;}
 }
 #primary_nav_wrap ul li.current-menu-item{
 	background:rgb(15,11,0);
+=======
+html,body{
+	background : rgb(15,11,0) ;
+	color : white ;
+	margin:0;
+	padding:0;
+}
+
+*{font-family:  sans-serif;}
+
+a{
+	color: white ;
+	text-decoration: none;
+}
+
+img{text-align: center}
+
+a:hover{color: rgb(249,177,0);}
+
+h1{
+	color: rgb(249,177,0);
+	
+	}
+
+.indent{margin-left: 15px;}
+
+.thin_border{border: 1px solid black;}
+
+.header{
+	font-size: 32px;
+	padding: 30px;
+	margin: auto;
+	background: rgb(51,50,46);
+	background-size:20%; 
+}
+
+.sub{
+	font-size: 24px;
+	padding: 15px;
+	margin: auto;
+}
+
+.row{
+	padding: 20px;
+	min-width: 1px;
+	float:left;
+}
+
+.col{
+	min-width: 40px;/*tirar?*/
+	border-radius: 10px;
+	margin-left: 2.4%
+	margin-right:2.4%;
+	display: inline-block;
+	float: left;
+	/*background-color: red;*/
+}
+
+.col:first-child{
+	margin-left:0px;
+}
+.col:last-child{
+	margin-right: 0px;
+}
+
+.col.one{width: 25%;}
+
+.col.two{width: 25%;}
+
+.col.three{width: 30%;}
+
+.center{text-align: center;}
+.aright{text-align: right;}
+
+.vqpx{font-size: 24px;}
+.dzpx{font-size:12px;}
+
+#primary_nav_wrap
+{
+font-size: 24px;}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:30
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	text-decoration:none;
+	line-height:30px;
+	padding:0 30px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+	background:rgb(51,50,46);
+
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+
+
+#primary_nav_wrap ul li:hover
+{
+	background:rgb(51,50,46);
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:rgb(51,50,46);
+	padding:0
+
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+
+}
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:rgb(15,11,0);
+>>>>>>> 5f1ba27ea280c074debcbb6a20643feb91b39cc3
 }
