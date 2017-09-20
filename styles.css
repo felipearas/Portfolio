@@ -5,7 +5,7 @@ html,body{
 	padding:0;
 }
 
-*{font-family: 'Helvetica', sans-serif;}
+*{font-family: 'Montserrat', sans-serif;}
 p{font-family: 'Open Sans', sans-serif;}
 a{
 	color: white ;
@@ -30,6 +30,8 @@ h1{
 .maior{width: 400px;
 height: 300px
 }
+
+.black{color: black}
 
 .indent{margin-left: 15px;}
 
