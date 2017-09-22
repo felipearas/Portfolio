@@ -5,20 +5,33 @@ html,body{
 	padding:0;
 }
 
-*{font-family:  sans-serif;}
-
+*{font-family: 'Montserrat', sans-serif;}
+p{font-family: 'Open Sans', sans-serif;}
 a{
 	color: white ;
 	text-decoration: none;
 }
 
-img{text-align: center}
+img.centre {
+    display: block;
+    margin: 0 auto;
+}
 
 a:hover{color: rgb(249,177,0);}
 
 h1{
 	color: rgb(249,177,0);
+	font-size: 24px
 	}
+
+.menor{width: 300px;
+		height: 225px}
+
+.maior{width: 400px;
+height: 300px
+}
+
+.black{color: black}
 
 .indent{margin-left: 15px;}
 
@@ -30,6 +43,11 @@ h1{
 	margin: auto;
 	background: rgb(51,50,46);
 	background-size:20%; 
+}
+
+.bread{
+	font-size: 15px;
+	color: rgb(249,177,0);
 }
 
 .sub{
@@ -45,12 +63,12 @@ h1{
 }
 
 .col{
-	/*min-width: 40px;tirar?*/
+	min-width: 25%;
 	border-radius: 10px;
 	margin-left: 2.4%
 	margin-right:2.4%;
 	display: inline-block;
-	float: left;
+	padding-top: 25px;
 	/*background-color: red;*/
 }
 
@@ -61,12 +79,27 @@ h1{
 	margin-right: 0px;
 }
 
-.col.one{width: 25%;}
+.col.one{width: 25%;
+float: left;}
 
-.col.two{width: 25%;}
+.col.three{
+	width: 25%;
+	float: right;
+	padding-top: 0px;
+}
 
-.col.three{width: 30%;}
+.col.four{width: 30%;
+vertical-align: top;
+padding: 10px}
 
+.col.five{width: 47%;
+float: left}
+
+.col.six{width: 85%;
+}
+
+
+.flut{float: left;}
 .center{text-align: center;}
 .aright{text-align: right;}
 
@@ -138,7 +171,7 @@ font-size: 24px;}
 
 #primary_nav_wrap ul li:hover > ul{
 	display:block
-	
+
 
 }
 #primary_nav_wrap ul li.current-menu-item{
