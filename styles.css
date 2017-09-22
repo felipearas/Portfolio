@@ -89,7 +89,8 @@ float: left;}
 }
 
 .col.four{width: 30%;
-vertical-align: top;}
+vertical-align: top;
+padding: 10px}
 
 .col.five{width: 47%;
 float: left}
