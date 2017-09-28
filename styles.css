@@ -1,5 +1,5 @@
 html,body{
-	background : rgb(15,11,0) ;
+	background : rgb(15,11,12) ;
 	color : white ;
 	margin:0;
 	padding:0;
@@ -39,7 +39,7 @@ height: 300px
 
 .header{
 	font-size: 32px;
-	padding: 30px;
+	padding: 20px;
 	margin: auto;
 	background: rgb(51,50,46);
 	background-size:20%; 
